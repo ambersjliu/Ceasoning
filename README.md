@@ -3,7 +3,7 @@
 
 Love food, but don't love eating healthy? Well, you will, after entering the wonderful world of Ceasoning!
 
-#Features
+# Features
 - Interact with a wide selection of foods in an adorable VR kitchen
 - Pick up food to see its nutrition facts information
 - Set the items you'd like in your meal into a pot, then press a button to receive a rating of its healthiness
