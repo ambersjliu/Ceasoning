@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9337076108caa0d4a8f90cbe116428da, type: 3}
+  m_Name: Sausage
+  m_EditorClassIdentifier: 
+  foodName: Sausage
+  serving: 76g
+  calories: 229
+  fat: 20
+  transFat: 7
+  chol: 54
+  sodium: 644.5
+  carb: 1.5
+  fibre: 0
+  sugar: 0
+  protein: 9
+  calcium: 0
+  iron: 4

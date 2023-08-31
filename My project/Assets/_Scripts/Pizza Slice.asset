@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9337076108caa0d4a8f90cbe116428da, type: 3}
+  m_Name: Pizza Slice
+  m_EditorClassIdentifier: 
+  foodName: Pizza Slice
+  serving: 1 Slice
+  calories: 285
+  fat: 10.4
+  transFat: 5.1
+  chol: 18.2
+  sodium: 639.9
+  carb: 35.7
+  fibre: 2.5
+  sugar: 3.8
+  protein: 12.2
+  calcium: 201.2
+  iron: 2.7

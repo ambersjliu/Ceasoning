@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9337076108caa0d4a8f90cbe116428da, type: 3}
+  m_Name: Pumpkin
+  m_EditorClassIdentifier: 
+  foodName: Pumpkin
+  serving: 1
+  calories: 137
+  fat: 7
+  transFat: 0
+  chol: 0
+  sodium: 2.5
+  carb: 19
+  fibre: 1
+  sugar: 5.1
+  protein: 3
+  calcium: 24.36
+  iron: 0.93

@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1170364742582239465
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1461796708442094641}
+  - component: {fileID: 8626303238562270546}
+  - component: {fileID: 3579612222497359867}
+  - component: {fileID: 2347871552807035081}
+  m_Layer: 0
+  m_Name: Salmon
+  m_TagString: Food
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1461796708442094641
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170364742582239465}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1300568603913985479}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &8626303238562270546
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170364742582239465}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &3579612222497359867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170364742582239465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef6eedbef6d55fc43810012fa638b857, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nutrition: {fileID: 11400000, guid: d0f2ecdea5197c7429fa5e6945ff9749, type: 2}
+  CanSpawnCopy: 1
+--- !u!65 &2347871552807035081
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170364742582239465}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.57, y: 0.08, z: 0.24}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &1920821479027914198
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1461796708442094641}
+    m_Modifications:
+    - target: {fileID: 283581748339012267, guid: 3c0685d4d52f57548aa967a3907720f9, type: 3}
+      propertyPath: m_Name
+      value: Salmon fillet
+      objectReference: {fileID: 0}
+    - target: {fileID: 622812539259430929, guid: 3c0685d4d52f57548aa967a3907720f9, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 622812539259430929, guid: 3c0685d4d52f57548aa967a3907720f9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 622812539259430929, guid: 3c0685d4d52f57548aa967a3907720f9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 622812539259430929, guid: 3c0685d4d52f57548aa967a3907720f9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 622812539259430929, guid: 3c0685d4d52f57548aa967a3907720f9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 622812539259430929, guid: 3c0685d4d52f57548aa967a3907720f9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 622812539259430929, guid: 3c0685d4d52f57548aa967a3907720f9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 622812539259430929, guid: 3c0685d4d52f57548aa967a3907720f9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 622812539259430929, guid: 3c0685d4d52f57548aa967a3907720f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 622812539259430929, guid: 3c0685d4d52f57548aa967a3907720f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 622812539259430929, guid: 3c0685d4d52f57548aa967a3907720f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3c0685d4d52f57548aa967a3907720f9, type: 3}
+--- !u!4 &1300568603913985479 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 622812539259430929, guid: 3c0685d4d52f57548aa967a3907720f9, type: 3}
+  m_PrefabInstance: {fileID: 1920821479027914198}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1821526750239246205 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 283581748339012267, guid: 3c0685d4d52f57548aa967a3907720f9, type: 3}
+  m_PrefabInstance: {fileID: 1920821479027914198}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &7914075132061205891
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821526750239246205}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4331796636762196448, guid: 3e17c9b798a1ba24ba65181584d06ceb, type: 3}

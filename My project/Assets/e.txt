@@ -1,0 +1,3 @@
+atach interaction handler to a separate object
+take in two transforms (ie the anchors
+if r trigger is pressed paren to right, else left

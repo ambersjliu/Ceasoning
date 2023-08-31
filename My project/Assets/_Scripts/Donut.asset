@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9337076108caa0d4a8f90cbe116428da, type: 3}
+  m_Name: Donut
+  m_EditorClassIdentifier: 
+  foodName: Donut
+  serving: 1 Donut
+  calories: 269
+  fat: 15
+  transFat: 1
+  chol: 19
+  sodium: 20
+  carb: 31
+  fibre: 1.3
+  sugar: 15
+  protein: 1.3
+  calcium: 65
+  iron: 1.5
